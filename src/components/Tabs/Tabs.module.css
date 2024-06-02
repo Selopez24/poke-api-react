@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: white;
+	width: 342px;
+	height: 52px;
+	margin: 0 auto;
+	border-radius: 200px;
+	z-index: 0;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	position: relative;
+	border: 1px solid #8b8b8b;
+}

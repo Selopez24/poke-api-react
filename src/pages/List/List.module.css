@@ -1,0 +1,15 @@
+.list-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+	width: 100%;
+	padding: 40px 0;
+	box-sizing: border-box;
+}
+
+.autocomplete-container {
+	display: flex;
+	width: 100%;
+	margin-left: 54px;
+}

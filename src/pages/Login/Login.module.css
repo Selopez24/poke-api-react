@@ -1,0 +1,27 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+}
+
+.login-card {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.error-message {
+	color: red;
+	position: fixed;
+	font-weight: 600;
+}
+
+.login-button {
+	width: 342px;
+	height: 48px;
+	background-color: #000000;
+	border: none;
+	color: white;
+	border-radius: 200px;
+}

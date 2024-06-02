@@ -1,0 +1,31 @@
+.footer-container {
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	height: 96px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 16px;
+
+	button {
+		background-color: transparent;
+		border: none;
+	}
+}
+
+.current-page {
+	background-color: #df1818;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.displaying {
+	font-size: 12px;
+}

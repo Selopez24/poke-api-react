@@ -1,0 +1,14 @@
+.input-container {
+	input {
+		border: none;
+		background-color: #f5f5f5;
+		box-sizing: border-box;
+		padding: 0 20px;
+		width: 352px;
+		height: 52px;
+
+		&::placeholder {
+			color: #8b8b8b;
+		}
+	}
+}

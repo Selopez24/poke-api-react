@@ -1,0 +1,36 @@
+.autocomplete-container {
+	position: relative;
+
+	input {
+		width: 342px;
+		height: 36px;
+		border-radius: 200px;
+		border: none;
+		background-color: #ebebeb;
+		padding: 0 20px;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+	ul {
+		background-color: white;
+		position: absolute;
+		z-index: 1;
+		list-style-type: none;
+		margin: 0;
+		width: 100%;
+		border-radius: 16px;
+		text-transform: capitalize;
+		overflow: auto;
+		height: auto;
+		max-height: 200px;
+		li {
+			padding: 8px 0;
+			margin: 8px;
+			&:hover {
+				background-color: #ffdddd;
+				cursor: pointer;
+			}
+		}
+	}
+}

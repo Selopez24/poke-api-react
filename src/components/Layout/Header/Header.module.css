@@ -1,0 +1,35 @@
+.header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: white;
+	z-index: 1;
+	flex-wrap: wrap;
+	margin-bottom: 16px;
+
+	@media (width <= 750px) {
+		justify-content: center;
+	}
+}
+
+.logout-button {
+	height: 36px;
+	width: 128px;
+	border-radius: 200px;
+	background-color: white;
+}
+
+.session-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 80px;
+}
+
+.user-container {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
